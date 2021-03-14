@@ -4,9 +4,10 @@
 
 export const environment = {
   production: false,
-  authTokenServiceUrl: "http://localhost:5000/User?secret=",
-  authTokenSecret: "dummy-dummy-dummy",
-  textAnalysisServiceUrl: "http://localhost:5000/ExternalSiteContent"
+  authTokenServiceUrl: "https://api.mabalab.com/User?secret=",
+  authTokenSecret: "hYvEa65R^R&48kp&9u*bUUwAw^%MpKcMt",
+  textAnalysisServiceUrl: "https://api.mabalab.com/ExternalSiteContent",
+  giphyApiKey: "GIXmwVtAN3F6ZF9hiLCXt8UCY05kMefm"
 };
 
 /*
