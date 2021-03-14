@@ -49,7 +49,8 @@ export class ProjectComprehendComponent implements OnInit {
           .split(" ").filter(x => x.toLowerCase() != "a" && x.toLowerCase() != "an" && x.toLowerCase() != "the");
         const searchText = titleWordArray.join(" ");
         document.getElementById("giphySearchText").innerHTML = searchText;
-        this.makeGrid(document.getElementById("giphyGrid"), searchText, 15);
+        // this.makeGrid(document.getElementById("giphyGrid"), searchText, 15);
+        this.makeCarousel(document.getElementById("giphyGrid"), searchText, 15);
       });
     });
   };
