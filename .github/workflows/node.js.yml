@@ -30,7 +30,7 @@ jobs:
       - run: npm install
       - run: npm run site:build
       - name: Upload artifact
-        uses: action/upload-artifact@1.0.0
+        uses: actions/upload-artifact@1.0.0
         with:
           name: Vitepress dist
           path: ./dist
