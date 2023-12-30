@@ -26,5 +26,6 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
           cache-dependency-path: '**/package-lock.json'
+      - run: npm add -D vitepress
       - run: npm install
       - run: npm run site:build
